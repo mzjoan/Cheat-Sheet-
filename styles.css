@@ -1,0 +1,70 @@
+body {
+    background-color: gainsboro;
+    margin: 8px;
+}
+
+h1 {
+    color: #F56FAD;
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #FFC600;
+    line-height: 1;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+h2 {
+    color: #007580;
+    font-size: 30px;
+    font-family:'Josefin Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #D8F8B7;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin: 10px;
+}
+
+table {
+    width: 60%;
+    border: 2px solid #007580;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    /* border-collapse: collapse; */
+  }
+
+  caption {
+    color: #9DDFD3;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #007580;
+    line-height: 1;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding: 20px;
+  }
+  
+  th, td {
+    border: 2px solid #007580;
+  }
+
+  thead {
+    height: 50px;
+    background-color: #9DDFD3;
+  }
+
+  td {
+    height: 20px;
+    padding: 5px;
+  }
+
+  td .tag {
+    background-color: #9DDFD3;
+  }
+
+  tr:hover {
+    background-color: #99FFCD;
+  }
